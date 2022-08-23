@@ -1,0 +1,1 @@
+This is an Open Source Project that you will be able to contribute if you desire. Is is about a trivia game where if you have success, the application will pop up or send an email (I do not know, yet) a list of Juniors opportunities jobs list
