@@ -5,3 +5,5 @@ db.sync({ force: true }).then(() => {
   console.log("Database connected")
   app.listen(3000, () => console.log("Listening on port 3000"))
 }).catch(() => console.error('something went wrong'))
+
+// prueba de push con ssh
