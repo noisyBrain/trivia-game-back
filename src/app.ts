@@ -1,10 +1,13 @@
 import express from 'express';
 import cors from 'cors';
+import morgan from 'morgan';
+// import routes from './routes';
 
-const server = express();
+export const app = express();
 
-server.use(express.json())
-server.use(cors())
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cors());
+app.use(morgan('dev'));
 
-export default server;
-
+// app.use('/api', routes)
